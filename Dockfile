@@ -1,0 +1,8 @@
+# 使用 OpenJDK 作为基础镜像
+FROM openjdk:11-jre-slim
+
+# 将应用程序的 jar 文件复制到容器中
+COPY target/transaction-service-1.0.0.jar /app.jar
+
+# 启动应用程序
+ENTRYPOINT ["java", "-jar", "/app.jar"]

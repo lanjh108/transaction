@@ -1,0 +1,13 @@
+replicaCount: 3
+
+image:
+  repository: 536697229825.dkr.ecr.us-east-1.amazonaws.com/ljh
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: LoadBalancer
+  port: 80
+
+env:
+  SPRING_PROFILES_ACTIVE: "prod"
