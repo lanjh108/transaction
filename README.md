@@ -35,7 +35,7 @@ This project demonstrates how to deploy a Spring Boot application to AWS EKS usi
 
 
 ## Project Structure
-```
+
 ### 目录结构说明
 
 - **Dockfile**：Dockerfile 文件，用于构建 Docker 镜像。
@@ -85,7 +85,7 @@ This project demonstrates how to deploy a Spring Boot application to AWS EKS usi
          - **com.example.controller**：控制器测试包。
             - **SampleTest.java**：示例测试类。
 - **target**：Maven 构建输出目录。
-```
+
 
 ## Using the Spring Boot Application
 
